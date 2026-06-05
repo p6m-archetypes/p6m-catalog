@@ -1,0 +1,103 @@
+description: "P6M Service Archetypes"
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["services", "platform"]
+
+requires:
+  archetect: "3.0.0"
+
+catalog:
+  go:
+    description: "Go"
+    catalog:
+      services:
+        description: "Services"
+        catalog:
+          rest:
+            description: "Go REST Service"
+            source: "../golang-rest-service-archetype"
+          grpc:
+            description: "Go gRPC Service"
+            source: "../golang-grpc-service-archetype"
+          graphql:
+            description: "Go GraphQL Service"
+            source: "../golang-graphql-service-archetype"
+
+  java:
+    description: "Java"
+    catalog:
+      services:
+        description: "Services"
+        catalog:
+          rest:
+            description: "Java REST Service"
+            source: "../java-rest-service-archetype"
+          grpc:
+            description: "Java gRPC Service"
+            source: "../java-grpc-service-archetype"
+          graphql:
+            description: "Java GraphQL Service"
+            source: "../java-graphql-service-archetype"
+
+  dotnet:
+    description: ".NET"
+    catalog:
+      services:
+        description: "Services"
+        catalog:
+          rest:
+            description: ".NET REST Service"
+            source: "../dotnet-rest-service-archetype"
+          grpc:
+            description: ".NET gRPC Service"
+            source: "../dotnet-grpc-service-archetype"
+          graphql:
+            description: ".NET GraphQL Service"
+            source: "../dotnet-graphql-service-archetype"
+
+  python:
+    description: "Python"
+    catalog:
+      services:
+        description: "Services"
+        catalog:
+          rest:
+            description: "Python REST Service"
+            source: "../python-rest-service-archetype"
+          grpc:
+            description: "Python gRPC Service"
+            source: "../python-grpc-service-archetype"
+          graphql:
+            description: "Python GraphQL Service"
+            source: "../python-graphql-service-archetype"
+
+  rust:
+    description: "Rust"
+    catalog:
+      services:
+        description: "Services"
+        catalog:
+          rest:
+            description: "Rust REST Service"
+            source: "../rust-rest-service-archetype"
+          grpc:
+            description: "Rust gRPC Service"
+            source: "../rust-grpc-service-archetype"
+          graphql:
+            description: "Rust GraphQL Service"
+            source: "../rust-graphql-service-archetype"
+
+  typescript:
+    description: "TypeScript"
+    catalog:
+      services:
+        description: "Services"
+        catalog:
+          rest:
+            description: "TypeScript REST Service"
+            source: "../typescript-rest-service-archetype"
+          grpc:
+            description: "TypeScript gRPC Service"
+            source: "../typescript-grpc-service-archetype"
+          graphql:
+            description: "TypeScript GraphQL Service"
+            source: "../typescript-graphql-service-archetype"
