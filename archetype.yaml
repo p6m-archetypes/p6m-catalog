@@ -20,19 +20,19 @@ catalog:
         catalog:
           basic:
             description: "Go Basic Service"
-            source: "git@github.com:p6m-archetypes/golang-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/golang-service-basic-archetype.git#dev"
           empty:
             description: "Go Service Platform Overlay"
-            source: "git@github.com:p6m-archetypes/golang-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/golang-service-empty-archetype.git#dev"
           rest:
             description: "Go REST Service"
-            source: "git@github.com:p6m-archetypes/golang-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/golang-rest-service-archetype.git#dev"
           grpc:
             description: "Go gRPC Service"
-            source: "git@github.com:p6m-archetypes/golang-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/golang-grpc-service-archetype.git#dev"
           graphql:
             description: "Go GraphQL Service"
-            source: "git@github.com:p6m-archetypes/golang-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/golang-graphql-service-archetype.git#dev"
 
   java:
     description: "Java"
@@ -42,19 +42,19 @@ catalog:
         catalog:
           basic:
             description: "Java Basic Service"
-            source: "git@github.com:p6m-archetypes/java-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/java-service-basic-archetype.git#dev"
           empty:
             description: "Java Service Platform Overlay"
-            source: "git@github.com:p6m-archetypes/java-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/java-service-empty-archetype.git#dev"
           rest:
             description: "Java REST Service"
-            source: "git@github.com:p6m-archetypes/java-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/java-rest-service-archetype.git#dev"
           grpc:
             description: "Java gRPC Service"
-            source: "git@github.com:p6m-archetypes/java-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/java-grpc-service-archetype.git#dev"
           graphql:
             description: "Java GraphQL Service"
-            source: "git@github.com:p6m-archetypes/java-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/java-graphql-service-archetype.git#dev"
 
   dotnet:
     description: ".NET"
@@ -64,19 +64,19 @@ catalog:
         catalog:
           basic:
             description: ".NET Basic Service"
-            source: "git@github.com:p6m-archetypes/dotnet-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/dotnet-service-basic-archetype.git#dev"
           empty:
             description: ".NET Service Platform Overlay"
-            source: "git@github.com:p6m-archetypes/dotnet-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/dotnet-service-empty-archetype.git#dev"
           rest:
             description: ".NET REST Service"
-            source: "git@github.com:p6m-archetypes/dotnet-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/dotnet-rest-service-archetype.git#dev"
           grpc:
             description: ".NET gRPC Service"
-            source: "git@github.com:p6m-archetypes/dotnet-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/dotnet-grpc-service-archetype.git#dev"
           graphql:
             description: ".NET GraphQL Service"
-            source: "git@github.com:p6m-archetypes/dotnet-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/dotnet-graphql-service-archetype.git#dev"
 
   python:
     description: "Python"
@@ -86,19 +86,19 @@ catalog:
         catalog:
           basic:
             description: "Python Basic Service"
-            source: "git@github.com:p6m-archetypes/python-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/python-service-basic-archetype.git#dev"
           empty:
             description: "Python Service Platform Overlay"
-            source: "git@github.com:p6m-archetypes/python-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/python-service-empty-archetype.git#dev"
           rest:
             description: "Python REST Service"
-            source: "git@github.com:p6m-archetypes/python-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/python-rest-service-archetype.git#dev"
           grpc:
             description: "Python gRPC Service"
-            source: "git@github.com:p6m-archetypes/python-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/python-grpc-service-archetype.git#dev"
           graphql:
             description: "Python GraphQL Service"
-            source: "git@github.com:p6m-archetypes/python-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/python-graphql-service-archetype.git#dev"
 
   rust:
     description: "Rust"
@@ -108,19 +108,19 @@ catalog:
         catalog:
           basic:
             description: "Rust Basic Service"
-            source: "git@github.com:p6m-archetypes/rust-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/rust-service-basic-archetype.git#dev"
           empty:
             description: "Rust Service Platform Overlay"
-            source: "git@github.com:p6m-archetypes/rust-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/rust-service-empty-archetype.git#dev"
           rest:
             description: "Rust REST Service"
-            source: "git@github.com:p6m-archetypes/rust-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/rust-rest-service-archetype.git#dev"
           grpc:
             description: "Rust gRPC Service"
-            source: "git@github.com:p6m-archetypes/rust-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/rust-grpc-service-archetype.git#dev"
           graphql:
             description: "Rust GraphQL Service"
-            source: "git@github.com:p6m-archetypes/rust-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/rust-graphql-service-archetype.git#dev"
 
   typescript:
     description: "TypeScript"
@@ -130,16 +130,16 @@ catalog:
         catalog:
           basic:
             description: "TypeScript Basic Service"
-            source: "git@github.com:p6m-archetypes/typescript-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/typescript-service-basic-archetype.git#dev"
           empty:
             description: "TypeScript Service Platform Overlay"
-            source: "git@github.com:p6m-archetypes/typescript-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/typescript-service-empty-archetype.git#dev"
           rest:
             description: "TypeScript REST Service"
-            source: "git@github.com:p6m-archetypes/typescript-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/typescript-rest-service-archetype.git#dev"
           grpc:
             description: "TypeScript gRPC Service"
-            source: "git@github.com:p6m-archetypes/typescript-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/typescript-grpc-service-archetype.git#dev"
           graphql:
             description: "TypeScript GraphQL Service"
-            source: "git@github.com:p6m-archetypes/typescript-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/typescript-graphql-service-archetype.git#dev"
