@@ -22,7 +22,7 @@ catalog:
             description: "Go Basic Service"
             source: "https://github.com/p6m-archetypes/golang-service-basic-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
-          empty:
+          retrofit:
             description: "Go Retrofit Overlay"
             source: "https://github.com/p6m-archetypes/golang-service-empty-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
@@ -49,7 +49,7 @@ catalog:
             description: "Java Basic Service"
             source: "https://github.com/p6m-archetypes/java-service-basic-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
-          empty:
+          retrofit:
             description: "Java Retrofit Overlay"
             source: "https://github.com/p6m-archetypes/java-service-empty-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
@@ -76,7 +76,7 @@ catalog:
             description: ".NET Basic Service"
             source: "https://github.com/p6m-archetypes/dotnet-service-basic-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
-          empty:
+          retrofit:
             description: ".NET Retrofit Overlay"
             source: "https://github.com/p6m-archetypes/dotnet-service-empty-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
@@ -103,7 +103,7 @@ catalog:
             description: "Python Basic Service"
             source: "https://github.com/p6m-archetypes/python-service-basic-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
-          empty:
+          retrofit:
             description: "Python Retrofit Overlay"
             source: "https://github.com/p6m-archetypes/python-service-empty-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
@@ -130,7 +130,7 @@ catalog:
             description: "Rust Basic Service"
             source: "https://github.com/p6m-archetypes/rust-service-basic-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
-          empty:
+          retrofit:
             description: "Rust Retrofit Overlay"
             source: "https://github.com/p6m-archetypes/rust-service-empty-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
@@ -157,7 +157,7 @@ catalog:
             description: "TypeScript Basic Service"
             source: "https://github.com/p6m-archetypes/typescript-service-basic-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
-          empty:
+          retrofit:
             description: "TypeScript Retrofit Overlay"
             source: "https://github.com/p6m-archetypes/typescript-service-empty-archetype.git#dev"
             use_defaults: ["service_port", "management_port"]
