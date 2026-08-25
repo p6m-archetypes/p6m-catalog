@@ -5,9 +5,10 @@ tags: ["services", "platform"]
 requires:
   archetect: "3.0.0"
 
-# Sources are pinned to each archetype's `dev` branch (`#dev`) so the catalog
-# serves the latest reviewed development version until we begin tagging releases,
-# at which point each `#dev` ref is replaced with a pinned version tag.
+# Sources are pinned to each archetype's floating major tag (`#v1`) — the release
+# line cut 2026-08-25 (YP6M-3488/3489). The tag ratchets forward with each archetype
+# release, so the catalog serves released versions and non-breaking fixes flow
+# without editing thirty refs; a major bump is a deliberate edit here.
 # Authors with a local checkout under a configured `locals.paths` directory render
 # from that checkout automatically; everyone else clones the pinned `dev` ref.
 
@@ -20,23 +21,23 @@ catalog:
         catalog:
           basic:
             description: "Go Basic Service"
-            source: "https://github.com/p6m-archetypes/golang-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/golang-service-basic-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           retrofit:
             description: "Go Retrofit Overlay"
-            source: "https://github.com/p6m-archetypes/golang-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/golang-service-empty-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           rest:
             description: "Go REST Service"
-            source: "https://github.com/p6m-archetypes/golang-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/golang-rest-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           grpc:
             description: "Go gRPC Service"
-            source: "https://github.com/p6m-archetypes/golang-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/golang-grpc-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           graphql:
             description: "Go GraphQL Service"
-            source: "https://github.com/p6m-archetypes/golang-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/golang-graphql-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
 
   java:
@@ -47,23 +48,23 @@ catalog:
         catalog:
           basic:
             description: "Java Basic Service"
-            source: "https://github.com/p6m-archetypes/java-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/java-service-basic-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           retrofit:
             description: "Java Retrofit Overlay"
-            source: "https://github.com/p6m-archetypes/java-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/java-service-empty-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           rest:
             description: "Java REST Service"
-            source: "https://github.com/p6m-archetypes/java-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/java-rest-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           grpc:
             description: "Java gRPC Service"
-            source: "https://github.com/p6m-archetypes/java-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/java-grpc-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           graphql:
             description: "Java GraphQL Service"
-            source: "https://github.com/p6m-archetypes/java-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/java-graphql-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
 
   dotnet:
@@ -74,23 +75,23 @@ catalog:
         catalog:
           basic:
             description: ".NET Basic Service"
-            source: "https://github.com/p6m-archetypes/dotnet-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/dotnet-service-basic-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           retrofit:
             description: ".NET Retrofit Overlay"
-            source: "https://github.com/p6m-archetypes/dotnet-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/dotnet-service-empty-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           rest:
             description: ".NET REST Service"
-            source: "https://github.com/p6m-archetypes/dotnet-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/dotnet-rest-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           grpc:
             description: ".NET gRPC Service"
-            source: "https://github.com/p6m-archetypes/dotnet-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/dotnet-grpc-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           graphql:
             description: ".NET GraphQL Service"
-            source: "https://github.com/p6m-archetypes/dotnet-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/dotnet-graphql-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
 
   python:
@@ -101,23 +102,23 @@ catalog:
         catalog:
           basic:
             description: "Python Basic Service"
-            source: "https://github.com/p6m-archetypes/python-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/python-service-basic-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           retrofit:
             description: "Python Retrofit Overlay"
-            source: "https://github.com/p6m-archetypes/python-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/python-service-empty-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           rest:
             description: "Python REST Service"
-            source: "https://github.com/p6m-archetypes/python-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/python-rest-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           grpc:
             description: "Python gRPC Service"
-            source: "https://github.com/p6m-archetypes/python-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/python-grpc-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           graphql:
             description: "Python GraphQL Service"
-            source: "https://github.com/p6m-archetypes/python-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/python-graphql-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
 
   rust:
@@ -128,23 +129,23 @@ catalog:
         catalog:
           basic:
             description: "Rust Basic Service"
-            source: "https://github.com/p6m-archetypes/rust-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/rust-service-basic-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           retrofit:
             description: "Rust Retrofit Overlay"
-            source: "https://github.com/p6m-archetypes/rust-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/rust-service-empty-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           rest:
             description: "Rust REST Service"
-            source: "https://github.com/p6m-archetypes/rust-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/rust-rest-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           grpc:
             description: "Rust gRPC Service"
-            source: "https://github.com/p6m-archetypes/rust-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/rust-grpc-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           graphql:
             description: "Rust GraphQL Service"
-            source: "https://github.com/p6m-archetypes/rust-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/rust-graphql-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
 
   typescript:
@@ -155,21 +156,21 @@ catalog:
         catalog:
           basic:
             description: "TypeScript Basic Service"
-            source: "https://github.com/p6m-archetypes/typescript-service-basic-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/typescript-service-basic-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           retrofit:
             description: "TypeScript Retrofit Overlay"
-            source: "https://github.com/p6m-archetypes/typescript-service-empty-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/typescript-service-empty-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           rest:
             description: "TypeScript REST Service"
-            source: "https://github.com/p6m-archetypes/typescript-rest-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/typescript-rest-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           grpc:
             description: "TypeScript gRPC Service"
-            source: "https://github.com/p6m-archetypes/typescript-grpc-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/typescript-grpc-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
           graphql:
             description: "TypeScript GraphQL Service"
-            source: "https://github.com/p6m-archetypes/typescript-graphql-service-archetype.git#dev"
+            source: "https://github.com/p6m-archetypes/typescript-graphql-service-archetype.git#v1"
             use_defaults: ["service_port", "management_port"]
